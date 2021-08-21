@@ -52,6 +52,7 @@
     let questionBox = button.parentNode.parentNode;
     let answer = questionBox.lastElementChild;
     answer.classList.toggle("hidden");
+    answer.classList.toggle("question-answer");
     return button;
   }
 
