@@ -1,3 +1,10 @@
+/**
+ * This is the client-side JavaScript for the resources page. It makes a fetch request to the
+ * Mental Health Resource API in app.js whenever the search button is hit to find resources about
+ * the state currently selected in the drop-down. It then formats the response from the API and adds
+ * it to the page, and clears it whenever a new fetch request is made.
+ */
+
 "use strict";
 
 (function() {
@@ -5,13 +12,19 @@
   window.addEventListener("load", init);
 
   /**
-   * the function that runs when the page loads
+   * the function that runs when the page loads; adds an event listener to the search button so
+   * the fetch request is made when it is clicked, and resets the drop-down menu to the default
+   * (the first state alphabetically, Alabama)
    */
   function init() {
     id("search-btn").addEventListener("click", fetchResources);
     id("state").value = "Alabama";
   }
 
+  /**
+   * takes the currently selected state from the drop down and makes a fetch request to the Mental
+   * Health Resource API with that state
+   */
   function fetchResources() {
     id("search-results").innerHTML = "";
     state = id("state").value;
@@ -23,7 +36,7 @@
   }
 
   /**
- * Checks to ensure that data was fetched from the API successfully; if not, throws an error
+ * checks to ensure that data was fetched from the API successfully; if not, throws an error
  * @param {object} response - the response returned from the API call
  * @returns {object} response - the data returned from the API call
  */
@@ -34,6 +47,12 @@
     return response;
   }
 
+  /**
+   * takes the response from the Mental Health Resource API and formats accordingly (for example,
+   * if there's a link in the response, that link is assigned to the first resource returned from
+   * the API)
+   * @param {JSON} response - the response from the API call
+   */
   function processResources(response) {
     let resources = response.resources;
     let resourcesArray = resources.split("; ");
@@ -73,24 +92,6 @@
    */
   function id(idName) {
     return document.getElementById(idName);
-  }
-
-  /**
-   * Returns the first element that matches the given CSS selector.
-   * @param {string} selector - CSS query selector.
-   * @returns {object} The first DOM object matching the query.
-   */
-  function qs(selector) {
-    return document.querySelector(selector);
-  }
-
-  /**
- * Returns the array of elements that match the given CSS selector.
- * @param {string} selector - CSS query selector
- * @returns {object[]} array of DOM objects matching the query.
- */
-    function qsa(selector) {
-    return document.querySelectorAll(selector);
   }
 
   /**

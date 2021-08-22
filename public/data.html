@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <!--
-  comment
+  The HTML for the data visualization page. It features an embedded Power BI widget and paragraphs
+  talking about the key takeaways from the data.
 -->
 <html lang='en'>
   <head>
     <meta charset='utf-8'>
     <title>IMHR - Data</title>
     <link rel='stylesheet' href='styles.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet">
   </head>
 
   <body>
     <header>
-      <img src="images/171217.jpg" alt="placeholder logo">
+      <a href="home.html">
+        <img src="images/logo.png" alt="The Illuminate Logo. An illustration of
+        a lightbulb backlit by an orange circle against a light blue background, with the word
+        Illuminate above it in cursive lettering, and the words mental health resources written
+        below.">
+      </a>
       <nav>
         <ul>
           <li><a href="home.html">Home</a></li>
@@ -24,18 +34,31 @@
     </header>
     <main>
       <article class="title-card">
-        <h1>Data</h1>
+        <h1>Data Visualization</h1>
         <p>
-          Creating engaging, digestible, and impactful visualizations of mental health in the workplace.
+          Creating engaging, digestible, and impactful visualizations of mental health in the
+          workplace.
         </p>
       </article>
 
       <section>
-        <p>The 2016 Mental Health in the Tech Industry survey is represented in an interactive data visualization below. Hover over each representation to learn specific data values and select a State via the dropdown menu to filter the pie charts.</p>
+        <p>
+          The 2016 Mental Health in the Tech Industry survey is represented in an interactive
+          data visualization below. Hover over each representation to learn specific data values
+          and select a State via the dropdown menu to filter the pie charts.
+        </p>
         <div class="data-container">
           <iframe src="https://app.powerbi.com/view?r=eyJrIjoiMmI3ZWRmM2YtZThmMi00ODUwLWE4ZjUtNDE1ZWViNTMwODVkIiwidCI6ImY2YjZkZDViLWYwMmYtNDQxYS05OWEwLTE2MmFjNTA2MGJkMiIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
         </div>
-        <p>46.77% of the respondents to the 2016 Mental Health in the Tech Industry survey shared that they had a mental illness. Of these respondents, 357 stated that mental illness often interferes with their job if left untreated. In contrast, only 33 respondents stated that mental illness often interferes if treated effectively. This represents the impact of mental health of job performance and productivity. However, the survey also revealed that mental health programs, recourses, and benefits are not consistently provided by employers.</p>
+        <p>
+          46.77% of the respondents to the 2016 Mental Health in the Tech Industry survey shared
+          that they had a mental illness. Of these respondents, 357 stated that mental illness
+          often interferes with their job if left untreated. In contrast, only 33 respondents
+          stated that mental illness often interferes if treated effectively. This represents
+          the impact of mental health of job performance and productivity. However, the survey
+          also revealed that mental health programs, resources, and benefits are not consistently
+          provided by employers.
+        </p>
       </section>
 
     </main>
