@@ -5,6 +5,7 @@ body {
   background-color: rgba(109, 104, 117, 1);
   margin: 0;
   font-size: 1.75rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body, .footer-box a, #search-results {
