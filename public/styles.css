@@ -151,8 +151,10 @@ select:hover {
 }
 
 iframe {
-  width: 600px;
-  height: 373.5px;
+  /* width: 600px;
+  height: 373.5px; */
+  width: 9000rem;
+  height: 61rem;
   align-self: flex-end;
 }
 

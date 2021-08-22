@@ -134,123 +134,152 @@ let resourcesList = [
   },
   {
     "state": "Massachusetts",
-    "link": "https://bewellindiana.com/",
-    "resources": "none"
+    "link": "https://namimass.org/resources/",
+    "resources": "National Alliance on Mental Illness - Massachusetts; Phone: 617-704-6264; Email: compass@namimass.org; Emergency Services Program/Mobile Crisis Intervention: 1 (877) 382-1609"
   },
   {
     "state": "Michigan",
-    "resources": "none"
+    "link": "https://namimi.org/",
+    "resources": "National Alliance on Mental Illness - Michigan; Phone: 517-485-4049; Email: info@namimi.org"
   },
   {
     "state": "Minnesota",
-    "resources": "none"
+    "link": "https://mentalhealthmn.org/support/community-resources/statewide-mental-health-resources/",
+    "resources": "Mental Health Minnesota; Phone: 651-493-6634 or 800-862-1799; Email: info@mentalhealthmn.org"
   },
   {
     "state": "Mississippi",
-    "resources": "none"
+    "link": "http://www.dmh.ms.gov/",
+    "resources": "Mississippi Department of Mental Health; Toll Free Help Line: 1-877-210-8513"
   },
   {
     "state": "Missouri",
-    "resources": "none"
+    "link": "https://dmh.mo.gov/behavioral-health",
+    "resources": "Missouri Department of Mental Health; Phone: 573-751-4942; Email: dbhmail@dmh.mo.gov"
   },
   {
     "state": "Montana",
-    "resources": "none"
+    "link": "http://mtdh.ruralinstitute.umt.edu/?page_id=721",
+    "resources": "Montana Disability and Health Program; Phone: 406-243-4956; Email: meg.traci@mso.umt.edu"
   },
   {
     "state": "Nebraska",
-    "resources": "none"
+    "link": "https://dhhs.ne.gov/Pages/Behavioral-Health.aspx",
+    "resources": "Nebraska Department of Health and Human Services - Behavioral Health; Phone: 402-471-3121; Nebraska Family Helpline: 888-866-8660"
   },
   {
     "state": "Nevada",
-    "resources": "none"
+    "link": "https://naminevada.org/crisis-info/",
+    "resources": "National Alliance on Mental Illness - Nevada; Information Line: 775-470-5600; Email: info@naminevada.org; Nevada Helpline: 775-470-5600"
   },
   {
     "state": "New Hampshire",
-    "resources": "none"
+    "link": "https://www.dhhs.nh.gov/dcbcs/bbh/index.htm",
+    "resources": "New Hampshire Bureau of Mental Health Services"
   },
   {
     "state": "New Jersey",
-    "resources": "none"
+    "link": "https://www.state.nj.us/humanservices/dmhas/home/hotlines/index.html",
+    "resources": "New Jersey's DHS' Division of Mental Health Services; Phone: 800-382-6717; Email: dmhas.webhelp@dhs.nj.gov"
   },
   {
     "state": "New Mexico",
-    "resources": "none"
+    "link": "https://www.newmexico.gov/stress/",
+    "resources": "New Mexico Department of Behavioral Health; Phone: 1-855-NMCRISIS (662-7474); App: NMCONNECT"
   },
   {
     "state": "New York",
-    "resources": "none"
+    "link": "https://my.omh.ny.gov/bi/pd/saw.dll?PortalPages",
+    "resources": "New York Office of Mental Health; Phone: 1-800-597-8481; Crisis Text Line: Text Got5 to 741-741"
   },
   {
     "state": "North Carolina",
-    "resources": "none"
+    "link": "https://www.ncdhhs.gov/divisions/mental-health-developmental-disabilities-and-substance-abuse/adult-mental-health-services",
+    "resources": "North Carolina Adult Mental Health Services; Phone: 1-800-662-7030"
   },
   {
     "state": "North Dakota",
-    "resources": "none"
+    "link": "https://www.nd.gov/dhs/services/mentalhealth/",
+    "resources": "North Dakota Behavioral Health Services; Phone: (701) 328-8920"
   },
   {
     "state": "Ohio",
-    "resources": "none"
+    "link": "https://namiohio.org/resources/",
+    "resources": "National Alliance on Mental Illness - Ohio; Phone: 1-800-686-2646; Email: namiohio@namiohio.org"
   },
   {
     "state": "Oklahoma",
-    "resources": "none"
+    "link": "https://mhaok.org/",
+    "resources": "Mental Health Association Oklahoma; Phone: 918-585-1213 or 405-943-3700; Email: info@mhaok.org"
   },
   {
     "state": "Oregon",
-    "resources": "none"
+    "link": "https://www.oregon.gov/oha/HSD/AMH/Pages/Get-Help.aspx",
+    "resources": "Oregon Behavioral Health Services; Mental Health Crisis Line: 1-800-273-8255; Youthline: 1-877-968-8491"
   },
   {
     "state": "Pennsylvania",
-    "resources": "none"
+    "link": "https://www.pa.gov/guides/mental-health/",
+    "resources": "Pennsylvania.gov - Mental Health Resources; Crisis Text Line: Text PA to 741741; Support and Referral Helpline: 855-284-2494"
   },
   {
     "state": "Rhode Island",
-    "resources": "none"
+    "link": "https://mhari.org/resources/",
+    "resources": "Mental Health Association of Rhode Island"
   },
   {
     "state": "South Carolina",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "South Dakota",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "Tennessee",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "Texas",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "Utah",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "Vermont",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "Virginia",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "Washington",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "West Virginia",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "Wisconsin",
+    "link": "",
     "resources": "none"
   },
   {
     "state": "Wyoming",
+    "link": "",
     "resources": "none"
   }
 ];
