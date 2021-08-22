@@ -15,7 +15,13 @@ header, .question-holder {
   align-items: center;
 }
 
-header, nav ul, footer, .question-holder, .data-container, #statements {
+header,
+nav ul,
+footer,
+.question-holder,
+.data-container,
+#statements,
+#resource-holder {
   display: flex;
 }
 
@@ -75,10 +81,17 @@ img {
 
 a {
   text-decoration: none;
+}
+
+a, section, #resource-holder a:hover {
+  color: rgba(255, 205, 178, 1);
+}
+
+nav a, #search-results a:hover {
   color: rgb(136, 98, 105);
 }
 
-nav a:hover, #active:hover {
+nav a:hover, #active:hover, #search-results a {
   color: rgb(94, 67, 72);
 }
 
@@ -111,10 +124,8 @@ button {
   display: inline-block;
   width: 40px;
   height: 40px;
-  font-size: 1.25rem;
-  background-color: transparent;
-  border: none;
   align-self: flex-end;
+  background-color: transparent;
 }
 
 button:hover {
@@ -122,6 +133,21 @@ button:hover {
   border-radius: 15px;
   box-shadow: 2px 4px 8px 2px rgb(52, 50, 54); */
   text-shadow: 1px 1px rgba(74, 70, 79, 1);
+}
+
+button, select {
+  border: none;
+  font-size: 1.25rem;
+}
+
+select {
+  width: 20%;
+  padding: 5px;
+  background-color: rgba(255, 180, 162, 1);
+}
+
+select:hover {
+  box-shadow: 2px 2px 4px 2px rgb(214, 170, 146);
 }
 
 iframe {
@@ -133,7 +159,6 @@ iframe {
 section {
   padding-left: 6.5%;
   padding-right: 6.5%;
-  color:rgba(255, 205, 178, 1);
 }
 
 article {
@@ -146,12 +171,16 @@ article {
   border-radius: 10px;
 }
 
-#statements {
+#resource-holder a {
+  color: rgb(214, 170, 146);
+}
+
+#statements, #resource-holder {
   justify-content: space-evenly;
   margin: 3%;
 }
 
-#statements article {
+#statements article, #resource-holder section {
   width: 45%;
   padding-bottom: 0px;
   padding-right: 20px;

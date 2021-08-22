@@ -37,10 +37,18 @@
   function processResources(response) {
     let resources = response.resources;
     let resourcesArray = resources.split("; ");
+    let link = "";
     for (let i = 0; i < resourcesArray.length; i++) {
       let text = gen("p");
-      text.textContent = resourcesArray[i];
-      console.log(text);
+      if (response.link && i === 0) {
+        link = response.link;
+        let linkedText = gen("a");
+        linkedText.href = link;
+        linkedText.textContent = resourcesArray[i];
+        text.appendChild(linkedText);
+      } else {
+        text.textContent = resourcesArray[i];
+      }
       id("search-results").appendChild(text);
     }
   }
