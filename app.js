@@ -229,58 +229,58 @@ let resourcesList = [
   },
   {
     "state": "South Carolina",
-    "link": "",
-    "resources": "none"
+    "link": "https://namisc.org/resources/",
+    "resources": "National Alliance on Mental Illness - South Carolina; Phone: 800-788-5131; NAMI Helpline: 1-800-950-NAMI"
   },
   {
     "state": "South Dakota",
-    "link": "",
-    "resources": "none"
+    "link": "https://namisouthdakota.org/",
+    "resources": "National Alliance on Mental Illness - South Dakota; Phone: 605-271-1871"
   },
   {
     "state": "Tennessee",
-    "link": "",
-    "resources": "none"
+    "link": "https://www.tn.gov/behavioral-health/mental-health-services.html",
+    "resources": "Tennessee Department of Mental Health; Crisis Line: 855-274-7471; Helpline: 800-560-5767; Email: OCA.TDMHSAS@tn.gov"
   },
   {
     "state": "Texas",
-    "link": "",
-    "resources": "none"
+    "link": "https://www.hhs.texas.gov/services/mental-health-substance-use",
+    "resources": "Texas Health and Human Services; Crisis Text Line: Text TX to 741741"
   },
   {
     "state": "Utah",
-    "link": "",
-    "resources": "none"
+    "link": "https://www.namiut.org/",
+    "resources": "National Alliance on Mental Illness - Utah; UNI Crisis Line: 801-587-3000; Mentor Help Line: 801-323-9900"
   },
   {
     "state": "Vermont",
-    "link": "",
-    "resources": "none"
+    "link": "https://mentalhealth.vermont.gov/services/emergency-services/how-get-help",
+    "resources": "Vermont Department of Mental Health; Crisis Text Line: Text VT to 741741"
   },
   {
     "state": "Virginia",
-    "link": "",
-    "resources": "none"
+    "link": "https://namivirginia.org/mental-health-resources/",
+    "resources": "National Alliance on Mental Illness - Virginia; Help Line: 1-888-486-8264; Email: info@namivirginia.org"
   },
   {
     "state": "Washington",
-    "link": "",
-    "resources": "none"
+    "link": "https://www.hca.wa.gov/health-care-services-supports/behavioral-health-recovery/mental-health-services",
+    "resources": "Washington Health Care Authority - Mental Health Services; Washington Recovery Help Line: 1-866-789-1511"
   },
   {
     "state": "West Virginia",
-    "link": "",
-    "resources": "none"
+    "link": "https://www.help4wv.com/resources",
+    "resources": "Help4WV; Phone: (844) 435•7498; Email: (844) 435-7498"
   },
   {
     "state": "Wisconsin",
-    "link": "",
-    "resources": "none"
+    "link": "http://www.mhawisconsin.org/statewide-resources-by-county.aspx",
+    "resources": "Mental Health America - Wisconsin; Phone: (414) 276-3122; Email: info@mhawisconsin.org"
   },
   {
     "state": "Wyoming",
-    "link": "",
-    "resources": "none"
+    "link": "https://health.wyo.gov/behavioralhealth/mhsa/treatment/cmhc/",
+    "resources": "Wyoming Department of Health; Phone: 307-777-5817"
   }
 ];
 
