@@ -1,5 +1,25 @@
 /**
+ * This Mental Health Resource API is designed to help users learn about various mental health
+ * resources in each state. It currently has one endpoint:
  *
+ * Get a list of resources and a link to a centralized resource website for a given state
+ * FORMAT: /resources/:state
+ * PARAMETERS: state - the name of the state to return resources for
+ * TYPE: GET
+ * RETURN TYPE: JSON
+ * DESCRIPTION: Takes the name of a state and searches a list of resources for the resources
+ * connected with that state, then returns those resources as a JSON array.
+ * EXAMPLE REQUEST: /resources/Alabama
+ * EXAMPLE RESPONSE:
+ * {
+ * "state": "Alabama",
+ * "link": "https://namialabama.org/",
+ * "resources": "National Alliance on Mental Illness - Alabama; Crisis Intervention: " +
+ *   "1-800-273-8255; Crisis Text: 800-332-4224"
+ * }
+ * POSSIBLE ERRORS:
+ *  - user error: if the state name isn't given, is formatted incorrectly, or isn't a state name,
+ *    a 400 error is thrown with a message on how to correctly format the state name.
  */
 
 'use strict';
@@ -284,9 +304,10 @@ let resourcesList = [
   }
 ];
 
-/**
-*
-*/
+ /**
+ * Takes the name of a state and returns information about that state's resources from the
+ * resourcesList
+ */
 app.get("/resources/:state", (req, res) => {
   let state = req.params["state"];
   let resources = {};
